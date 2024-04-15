@@ -6,6 +6,10 @@ import './plugins/element.js'
 import './assets/css/global.css'
 //导入element-ui
 import ElementUI from 'element-ui';
+//导入vue-table-with-tree-grid
+import TreeTable from 'vue-table-with-tree-grid'
+//注册为全局
+Vue.component('tree-table',TreeTable)
 
 Vue.use(ElementUI);
 //配置请求的根路径
